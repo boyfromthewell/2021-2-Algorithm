@@ -30,19 +30,19 @@ base case : 라인1, 2 (key값 못찾음 의미)
 * Basic operation : K와 배열 엔트리간의 비교 연산
     * 한번의 비교연산은 <, >, == 비교연산 한번이라 가정
 
-    <img width="60%" src="https://user-images.githubusercontent.com/86250281/133919813-9c53f9b1-eb98-41ce-9e5f-360b5b86c782.png"/>
+    <img width="80%" src="https://user-images.githubusercontent.com/86250281/133919813-9c53f9b1-eb98-41ce-9e5f-360b5b86c782.png"/>
 
 ## Average case of Binary Search
 
-<img width="50%" src="https://user-images.githubusercontent.com/86250281/133919979-8ee549ba-caec-4595-9c84-ce55ae4a9fd1.png"/> 
+<img width="60%" src="https://user-images.githubusercontent.com/86250281/133919979-8ee549ba-caec-4595-9c84-ce55ae4a9fd1.png"/> 
 <img width="40%" src="https://user-images.githubusercontent.com/86250281/133919993-c8e4c937-5cc0-4da1-bf30-65409fdb032a.png"/>
 
-<img width="40%" src="https://user-images.githubusercontent.com/86250281/133920070-e98bc691-c73a-4382-953c-8e328cbe7f90.jpg"/>
+<img width="60%" src="https://user-images.githubusercontent.com/86250281/133920070-e98bc691-c73a-4382-953c-8e328cbe7f90.jpg"/>
 
 ***
 
-<img width="60%" src="https://user-images.githubusercontent.com/86250281/133920091-45f427d8-90d6-4006-9e49-db758c0410e2.jpg"/>
+<img width="80%" src="https://user-images.githubusercontent.com/86250281/133920091-45f427d8-90d6-4006-9e49-db758c0410e2.jpg"/>
 
 ***
 
-<img width="60%" src="https://user-images.githubusercontent.com/86250281/133920462-41377021-f11f-4652-988a-142db78c2d7f.jpg"/>
+<img width="80%" src="https://user-images.githubusercontent.com/86250281/133920462-41377021-f11f-4652-988a-142db78c2d7f.jpg"/>
