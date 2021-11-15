@@ -11,12 +11,14 @@
 * Unseen vertices : 아직 볼 수 없는 정점
 
 <img width="60%" src="https://user-images.githubusercontent.com/86250281/141752241-6d3cb905-127a-49a8-863e-04d8a87d5aed.png"/>
+
 * Tree T1
 * 시작 정점 A
 * 인접한 정점 B,G,F를 Fringe 정점으로 업데이트
 (Fringe 정점 관리하는데 우선순위 큐 좋음, O(N)번 삽입, 삭제)
 
 <img width="60%" src="https://user-images.githubusercontent.com/86250281/141754145-6a50ced8-679e-46ee-bad7-99cbf3f1c2b3.png"/>
+
 * Fringe 정점에서 가장 작은 weight가진 B를 tree로 넣기
 * B에 인접한 unseen 상태의 C 를 Fringe에 추가
 
@@ -26,7 +28,8 @@
 * G에 인접한 unseen 상태의 I, H를 Fringe에 추가
 
 <img width="60%" src="https://user-images.githubusercontent.com/86250281/141754700-0fe994af-9bd8-4b08-bf78-128a1235c5b5.png"/> 
-* I 점점 tree에 추가
+
+* I 정점 tree에 추가
 * I에 인접한 F, E, H 정점 확인
 * F는 기존에 7로 갈수 있었는데 I 통하면 5 에 갈 수있음, 5로 업데이트 (decrease key), H로 가는 경우는 4인데, 기존에 3이 더작음->pass
 
