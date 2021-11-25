@@ -12,7 +12,7 @@ recursion tree로 표현 가능
 
 * 초기값 s[1,4]에 대한 k 값=1  
 
-    <img width="60%" src="https://user-images.githubusercontent.com/86250281/142971067-9ce94e8f-8fc9-404c-9e00-cfc8becc90e0.png"/>
+    <img width="60%" src="https://user-images.githubusercontent.com/86250281/142971067-9ce94e8f-8fc9-404c-9e00-cfc8becc90e0.png"/><img width="30%" src="https://user-images.githubusercontent.com/86250281/143447485-066492c6-d05f-4318-90a2-6b32cf0d718d.png"/>
 
 * (1,4)의 left child는 i,k로 나타낼수 있으므로 (1, 1)
 * right child는 k+1, j 로 나타낼수 있으므로 (2,4)
