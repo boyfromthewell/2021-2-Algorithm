@@ -5,7 +5,7 @@ PRINT-OPTIMAL-PARENS(𝑠, 𝑖,𝑗) //i=1, j=4
 2       then print “A”i //base case
 3   else print “(”
 4       PRINT-OPTIMAL-PARENS(𝑠, 𝑖, 𝑠[𝑖,𝑗]) //s[i,j]에는 k값 저장 (Ai..Ak) -> left child
-5       PRINT-OPTIMAL-PARENS(𝑠, 𝑠 𝑖,𝑗 + 1,𝑗) //s[i,j]+1=k+1 (Ak+1...Aj) -> right child
+5       PRINT-OPTIMAL-PARENS(𝑠, 𝑠[𝑖,𝑗]+1, 𝑗) //s[i,j]+1=k+1 (Ak+1...Aj) -> right child
 6       print “)
 ```
 recursion tree로 표현 가능
